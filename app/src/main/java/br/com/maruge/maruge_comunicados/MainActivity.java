@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Intente Para Novo Usuário
+        // Intente Para Novo Usuário , layout
         txtNovoUsuario.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(MainActivity.this,novo_usuario.class);
