@@ -1,15 +1,13 @@
 package br.com.maruge.maruge_comunicados.model;
 
-/**
- * Created by Jefferson David on 08/05/2017.
- */
+
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
 import java.util.List;
-/**
- * Created by Jefferson David on 30/04/2017.
- */
+
+
 public abstract class MessagemGenericDAO<T> extends SQLiteOpenHelper {
     private static final String NOME_BANCO = "maruge155";
     private static final int VERSAO_BANCO = 1;

@@ -7,9 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Jefferson David on 08/05/2017.
- */
+
 
 public class UsuarioDAO extends UsuarioGenericDAO<Usuario> {
     private SQLiteDatabase database;

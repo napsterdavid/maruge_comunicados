@@ -1,17 +1,15 @@
 package br.com.maruge.maruge_comunicados.model;
 
-/**
- * Created by Jefferson David on 08/05/2017.
- */
+
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
 import java.util.ArrayList;
 import java.util.List;
-/**
- * Created by Jefferson David on 30/04/2017.
- */
+
+
 public class MessagemDAO extends MessagemGenericDAO<Messagem> {
     private SQLiteDatabase database;
     public MessagemDAO(Context context){

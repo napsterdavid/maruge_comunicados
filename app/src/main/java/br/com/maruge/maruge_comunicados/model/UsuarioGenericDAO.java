@@ -6,9 +6,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.List;
 
-/**
- * Created by Jefferson David on 08/05/2017.
- */
 
 public abstract class UsuarioGenericDAO<T> extends SQLiteOpenHelper {
     private static final String NOME_BANCO = "maruge10";
