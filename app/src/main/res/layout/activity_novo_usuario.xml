@@ -6,8 +6,6 @@
     android:background="#364e6a"
     android:orientation="vertical">
 
-
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -31,8 +29,8 @@
         android:layout_marginTop="15dp"
         android:hint="Senha"
         android:textColorHint="#fff"
-
         />
+
     <Button
         android:background="@drawable/screen_border"
         android:text="Salvar"

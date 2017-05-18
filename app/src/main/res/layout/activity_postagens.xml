@@ -6,8 +6,8 @@
     android:background="#364e6a"
     android:padding="8dp"
     android:paddingRight="10dp"
-    android:paddingLeft="10dp"
-    >
+    android:paddingLeft="10dp">
+
     <ListView
 
         android:layout_width="match_parent"
@@ -15,4 +15,5 @@
         android:id="@+id/listView">
 
     </ListView>
+
 </RelativeLayout>
